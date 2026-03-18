@@ -4,10 +4,6 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import platform
 
-# ===================================
-# 구미도시공사 공영주차장 이용현황 EDA
-# ===================================
-
 DATA_PATH = Path(r"D:\PythonWorkspace\구미도시공사_공영주차장 이용현황_20240612 (1).csv")
 
 OUT_DIR = DATA_PATH.parent / "eda_parking_outputs"
